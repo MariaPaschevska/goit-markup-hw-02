@@ -1,0 +1,12 @@
+.team-container {
+  background-color: var(--accent-color);
+}
+
+.team-container .card {
+  background-color: var(--white-bg-color);
+}
+
+.team-container .card h3,
+.team-container .card p {
+  text-align: center;
+}
