@@ -1,0 +1,30 @@
+header {
+  background-color: var(--white-bg-color);
+}
+
+.nav-link {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.nav-link:hover,
+.contact-link:hover {
+  color: var(--pressed-state-color);
+}
+
+.nav-link:active,
+.contact-link:active {
+  text-decoration: underline;
+}
