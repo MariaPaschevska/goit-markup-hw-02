@@ -55,6 +55,10 @@ h3 {
   letter-spacing: 0.03em;
 }
 
+.logo.inverse {
+  color: var(--white-bg-color);
+}
+
 .logo-accent {
   color: var(--primary-brand-color);
 }
